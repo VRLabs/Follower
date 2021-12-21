@@ -41,9 +41,7 @@ Unpack the prefab by right-clicking it.
 
 Place "Follower" at the base of your avatar.
 
-Remove "Follower Target" outside of "Follower" and place it in your avatar's hierarchy as needed. 
-
-Adjust the position transform of "Follower Target" to your taste.
+Remove "Follower Target" outside of "Follower" and place it anywhere in your avatar's hierarchy. Adjust the position transform to your taste.
 
 Use the [Layer Weight Tool](https://github.com/VRLabs/Layer-Weight-Tool/). Open VRLabs from the menu bar. Click "Apply Weight Controls".
 
