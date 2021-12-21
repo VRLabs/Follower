@@ -1,27 +1,27 @@
 <div>
-  <h1>Particle Driver</h1>
+  <h1>Follower</h1>
   <p>
      A method for animating on particle death.
   </p>
 
-  <a href="https://github.com/VRLabs/Particle-Driver/releases/latest">
-    <img src="https://img.shields.io/github/v/release/VRLabs/Particle-Driver.svg?style=flat-square">
+  <a href="https://github.com/VRLabs/Follower/releases/latest">
+    <img src="https://img.shields.io/github/v/release/VRLabs/Follower.svg?style=flat-square">
   </a>
-  <a href="https://github.com/VRLabs/Particle-Driver/releases/latest">
+  <a href="https://github.com/VRLabs/Follower/releases/latest">
     <img src="https://img.shields.io/badge/Unity-2019.4-green.svg?style=flat-square">
   </a>
   <br />
-  <a href="https://github.com/VRLabs/Particle-Driver/issues">
-    <img src="https://img.shields.io/github/issues-raw/VRLabs/Particle-Driver.svg?style=flat-square">
+  <a href="https://github.com/VRLabs/Follower/issues">
+    <img src="https://img.shields.io/github/issues-raw/VRLabs/Follower.svg?style=flat-square">
   </a>
-  <a href="https://github.com/VRLabs/Particle-Driver/issues?q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed-raw/VRLabs/Particle-Driver.svg?style=flat-square">
+  <a href="https://github.com/VRLabs/Follower/issues?q=is%3Aissue+is%3Aclosed">
+    <img src="https://img.shields.io/github/issues-closed-raw/VRLabs/Follower.svg?style=flat-square">
   </a>
-  <a href="https://github.com/VRLabs/Particle-Driver/pull">
-    <img src="https://img.shields.io/github/issues-pr-raw/VRLabs/Particle-Driver.svg?style=flat-square">
+  <a href="https://github.com/VRLabs/Follower/pull">
+    <img src="https://img.shields.io/github/issues-pr-raw/VRLabs/Follower.svg?style=flat-square">
   </a>
-  <a href="https://github.com/VRLabs/Particle-Driver/pulls?q=is%3Apr+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-pr-closed-raw/VRLabs/Particle-Driver.svg?style=flat-square">
+  <a href="https://github.com/VRLabs/Follower/pulls?q=is%3Apr+is%3Aclosed">
+    <img src="https://img.shields.io/github/issues-pr-closed-raw/VRLabs/Follower.svg?style=flat-square">
   </a>
   <br />
   <br />
@@ -71,11 +71,11 @@ ParticleDeath > 0.1 means the Particle System is dying.
 
 ## Downloads
 
-You can grab the latest version of the Particle Driver in [Releases](https://github.com/VRLabs/Particle-Driver/releases/latest).
+You can grab the latest version of the Particle Driver in [Releases](https://github.com/VRLabs/Follower/releases/latest).
 
 ## License
 
-Particle Driver is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Particle-Driver/blob/dev/LICENSE).
+Particle Driver is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Follower/blob/dev/LICENSE).
 
 ## Contact us
 
