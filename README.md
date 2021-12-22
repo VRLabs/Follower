@@ -29,7 +29,7 @@
 
 ## How it works
 
-[Follower](https://github.com/VRLabs/Follower) is used to animate a series of constraints.
+[Particle Driver](https://github.com/VRLabs/Particle-Driver) is used to animate a series of constraints.
 
 ## Install guide
 
