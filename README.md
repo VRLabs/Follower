@@ -58,7 +58,7 @@ You can grab the latest version of the Follower in [Releases](https://github.com
 
 ## License
 
-Follower is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Follower/blob/dev/LICENSE).
+Follower is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Follower/blob/main/LICENSE).
 
 ## Contact us
 
