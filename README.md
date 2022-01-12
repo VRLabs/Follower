@@ -11,19 +11,6 @@
     <img src="https://img.shields.io/badge/Unity-2019.4-green.svg?style=flat-square">
   </a>
   <br />
-  <a href="https://github.com/VRLabs/Follower/issues">
-    <img src="https://img.shields.io/github/issues-raw/VRLabs/Follower.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/VRLabs/Follower/issues?q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed-raw/VRLabs/Follower.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/VRLabs/Follower/pull">
-    <img src="https://img.shields.io/github/issues-pr-raw/VRLabs/Follower.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/VRLabs/Follower/pulls?q=is%3Apr+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-pr-closed-raw/VRLabs/Follower.svg?style=flat-square">
-  </a>
-  <br />
 </div>
 
 ## How it works
