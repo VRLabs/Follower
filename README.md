@@ -3,6 +3,7 @@
   <p>
      A constraint-based follower.
   </p>
+<<<<<<< Updated upstream
 
   <a href="https://github.com/VRLabs/Follower/releases/latest">
     <img src="https://img.shields.io/github/v/release/VRLabs/Follower.svg?style=flat-square">
@@ -10,12 +11,11 @@
   <a href="https://github.com/VRLabs/Follower/releases/latest">
     <img src="https://img.shields.io/badge/Unity-2019.4-green.svg?style=flat-square">
   </a>
+=======
+  <br />
+>>>>>>> Stashed changes
   <br />
 </div>
-
-## How it works
-
-[Particle Driver](https://github.com/VRLabs/Particle-Driver) is used to animate a series of constraints.
 
 ## Install guide
 
@@ -29,14 +29,11 @@ Place "Follower" at the base of your avatar.
 
 Remove "Follower Target" outside of "Follower" and place it anywhere in your avatar's hierarchy. Adjust the position transform to your taste.
 
-Use the [Layer Weight Tool](https://github.com/VRLabs/Layer-Weight-Tool/). Open VRLabs from the menu bar. Click "Apply Weight Controls".
-
 ## How to use
-
-Testing in Unity requires the [3.0 emulator by Lyuma](https://github.com/lyuma/Av3Emulator). (Tip: To debug your FX controller, enable the emulator, enter play mode, select the controller file you intend to debug, and then select the avatar. Leave "Animator To Debug" at Base.)
 
 "Container" is where you place your objects that you want to follow.
 
+<<<<<<< Updated upstream
 To change the speed of the follower, you can edit the Local and Remote Follow.anim clips inside the Animations folder.
 
 ## Downloads
@@ -50,3 +47,6 @@ Follower is available as-is under MIT. For more information see [LICENSE](https:
 ## Contact us
 
 If you need help, our support channel is on [Discord](https://discord.vrlabs.dev).
+=======
+To change the speed of the follower, you can edit the Follow.anim clip inside the Animations folder.
+>>>>>>> Stashed changes
