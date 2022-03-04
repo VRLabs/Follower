@@ -4,7 +4,6 @@
      A constraint-based follower.
   </p>
   <br />
-  <br />
 </div>
 
 ## Install guide
