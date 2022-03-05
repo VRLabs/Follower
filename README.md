@@ -4,9 +4,6 @@
      A constraint-based follower.
   </p>
   <a href="https://github.com/VRLabs/Follower/releases/latest">
-    <img src="https://img.shields.io/github/v/release/VRLabs/Follower.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/VRLabs/Follower/releases/latest">
     <img src="https://img.shields.io/badge/Unity-2019.4-green.svg?style=flat-square">
   </a>
   <br />
