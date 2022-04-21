@@ -9,7 +9,7 @@ A constraint-based follower.
 
 ## How it works
 
-[Avatars Dynamics](https://docs.vrchat.com/v2022.1.2/docs/latest-release#sdk) contact components are used to animate a series of constraints.
+[Avatars Dynamics](https://docs.vrchat.com/docs/avatar-dynamics) contact components are used to animate a series of constraints.
 
 ## Install guide
 
