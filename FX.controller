@@ -142,7 +142,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Follower
@@ -169,12 +169,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: IsStopping
+  - type: 0
+    name: IsStopping
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &1101164514814204610
