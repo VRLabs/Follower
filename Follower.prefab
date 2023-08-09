@@ -26,12 +26,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669249760399220748}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5349806979329730795}
   - {fileID: 5147591202370098870}
+  - {fileID: 5349806979329730795}
   - {fileID: 4330276376573234579}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - Follower
+  - Follower/Stop
 --- !u!114 &5719607805482665401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,12 +102,12 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - Follower
+  - Follower/Stop
   allowSelf: 1
   allowOthers: 0
   localOnly: 0
   receiverType: 0
-  parameter: Follower.Stop
+  parameter: Follower/Stop
   minVelocity: 0.05
 --- !u!1 &3314792913649324533
 GameObject:
@@ -201,7 +201,7 @@ Transform:
   m_Children:
   - {fileID: 733502934842423558}
   m_Father: {fileID: 1675005943129074272}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1818360609 &1569617139350710
 RotationConstraint:
@@ -354,7 +354,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1675005943129074272}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1183024399 &3767271862023166392
 LookAtConstraint:

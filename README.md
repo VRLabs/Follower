@@ -13,10 +13,10 @@ A constraint-based follower.
 
 ## Install guide
 
-https://user-images.githubusercontent.com/45078979/165903507-9ab0fbe0-1b8f-4ce4-b87f-938ed7ed2ec3.mp4
+![Alt text](https://raw.githubusercontent.com/VRLabs/Follower/main/Media/Setup.mp4)
 
 Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
- 
+
 "Follower.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
 
 Unpack the prefab by right-clicking it.
