@@ -13,7 +13,7 @@ A constraint-based follower.
 
 ## Install guide
 
-![Alt text](https://raw.githubusercontent.com/VRLabs/Follower/main/Media/Setup.mp4)
+![Alt text](https://raw.githubusercontent.com/VRLabs/Follower/main/Media/setup.mp4)
 
 Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 
