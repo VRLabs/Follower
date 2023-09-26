@@ -30,6 +30,8 @@ Sets an "IsRendering" parameter to true when being looked at
 
 ## Install guide
 
+https://github.com/VRLabs/Follower/assets/76777936/eee1dcbb-0e9d-4f92-bb69-9bcbe50d9948
+
 * Merge the Animator Controller ``Follower FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Drag & Drop the ``Follower`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
