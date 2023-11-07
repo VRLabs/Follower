@@ -12,7 +12,8 @@
 
 Make something slowly follow you and look at you
 
-![Alt text]()
+![Follower](https://github.com/VRLabs/Follower/assets/76777936/3bb764a3-27ae-40b3-a595-6353ff30634a)
+
 
 ### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/Follower/releases/latest)
 
