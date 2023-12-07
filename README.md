@@ -12,7 +12,7 @@
 
 Make something slowly follow you and look at you
 
-![Follower2](https://github.com/VRLabs/Follower/assets/76777936/f36a5cf9-8ac2-4a18-bae8-4d13e9a9c2ac)
+![Follower](https://github.com/VRLabs/Follower/assets/76777936/f36a5cf9-8ac2-4a18-bae8-4d13e9a9c2ac)
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Follower/releases/latest)
 
