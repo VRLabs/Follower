@@ -1,0 +1,25 @@
+{
+    "name": "dev.vrlabs.follower",
+    "displayName": "Follower",
+    "version": "1.3.999",
+    "unity": "2019.4",
+    "description": "Make something slowly follow you and look at you",
+    "author": {
+        "name": "VRLabs",
+        "email": "mail@vrlabs.dev",
+        "url": "https://vrlabs.dev"
+    },
+    "siteUrl": "https://github.com/VRLabs/Follower",
+    "vpmDependencies": {
+        "dev.vrlabs.instancer": "1.x"
+    },
+    "legacyFolders": {
+        "Assets\\VRLabs\\Follower": "f71457bcffdb2c14cb8b10d7f5ad0a93"
+    },
+    "unityPackageDestinationFolder": "Assets/VRLabs/Follower",
+    "unitypackageDestinationFolderMetas": {
+        "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
+        "Assets/VRLabs/Follower": "f71457bcffdb2c14cb8b10d7f5ad0a93"
+    },
+    "vccRepoCategory": "systems"
+}
