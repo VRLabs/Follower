@@ -18,7 +18,7 @@ namespace VRLabs.Follower
 			"package.json"
 		};
 
-		[MenuItem("VRLabs/Follower")]
+		[MenuItem("VRLabs/Create Instance/Follower")]
 		public static void FancyPackage()
 		{
 			Type instancerType = AppDomain.CurrentDomain.GetAssemblies()
