@@ -18,13 +18,13 @@
     "Assets\\VRLabs\\Follower": "f71457bcffdb2c14cb8b10d7f5ad0a93"
   },
   "unityPackageDestinationFolder": "Assets/VRLabs/Follower",
-  "unitypackageDestinationFolderMetas": {
-    "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
-    "Assets/VRLabs/Follower": "f71457bcffdb2c14cb8b10d7f5ad0a93"
-  },
   "vccRepoCategory": "systems",
   "media": {
     "previewImage": "https://github.com/VRLabs/Follower/blob/main/Media/Preview.webp",
     "previewGif": "https://github.com/VRLabs/Follower/blob/main/Media/Preview.gif"
+  },
+  "unityPackageDestinationFolderMetas": {
+    "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
+    "Assets/VRLabs/Follower": "f71457bcffdb2c14cb8b10d7f5ad0a93"
   }
 }
