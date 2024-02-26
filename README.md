@@ -16,8 +16,8 @@ Make something slowly follow you and look at you
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Follower/releases/latest)
 
-<!-- 
-### 📦 [Add to VRChat Creator Companion]() -->
+
+### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.follower)
 
 </div>
 
