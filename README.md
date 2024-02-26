@@ -1,44 +1,87 @@
-# Follower
-  
-[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
-[![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://vrchat.com/home/download)
-[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Follower/blob/main/LICENSE)
-[![Generic badge](https://img.shields.io/github/downloads/VRLabs/Follower/total?label=Downloads)](https://github.com/VRLabs/Follower/releases/latest)
+<div align="center">
 
-A constraint-based follower.
+# Follower
+
+[![Generic badge](https://img.shields.io/github/downloads/VRLabs/Follower/total?label=Downloads)](https://github.com/VRLabs/Follower/releases/latest)
+[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Follower/blob/main/LICENSE)
+[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-lightblue.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
+[![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-lightblue.svg)](https://vrchat.com/home/download)
+
+[![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
+[![Generic badge](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dvrlabs%26type%3Dpatrons&style=for-the-badge)](https://patreon.vrlabs.dev/)
+
+Make something slowly follow you and look at you
+
+![Follower](https://github.com/VRLabs/Follower/assets/76777936/f36a5cf9-8ac2-4a18-bae8-4d13e9a9c2ac)
+
+### ⬇️ [Download Latest Version](https://github.com/VRLabs/Follower/releases/latest)
+
+
+### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.follower)
+
+</div>
+
+---
 
 ## How it works
 
-[Avatars Dynamics](https://docs.vrchat.com/docs/avatar-dynamics) contact components are used to animate a series of constraints.
+* Using a [Damping Constraint](https://github.com/VRLabs/Damping-Constraints) inside of a [World Constraint](https://github.com/VRLabs/World-Constraint) we can make an object slowly follow the player.
+* By using Contact Senders and Contact Receivers we can dynamically change the speed of the follower over time.
 
 ## Install guide
 
-https://user-images.githubusercontent.com/45078979/165903507-9ab0fbe0-1b8f-4ce4-b87f-938ed7ed2ec3.mp4
+https://github.com/VRLabs/Follower/assets/76777936/eee1dcbb-0e9d-4f92-bb69-9bcbe50d9948
 
-Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
- 
-"Follower.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
-
-Unpack the prefab by right-clicking it.
-
-Place "Follower" at the base of your avatar.
-
-Remove "Follower Target" outside of "Follower" and place it anywhere in your avatar's hierarchy. Adjust the position transform to your taste.
+* Merge the Animator Controller ``Follower FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
+* Drag & Drop the ``Follower`` prefab into the base of your Hierarchy.
+* Right click and unpack the prefab, then drag & drop it onto your avatar.
+* Expand the prefab hierarchy and find ``Follower Target``.
+* Move ``Follower Target`` outside of ``Follower`` and place it anywhere in your avatars hierarchy as needed.
 
 ## How to use
 
-"Container" is where you place your objects that you want to follow.
+* Place the objects you want to follow you inside ``Container``.
+  * Alternatively you can constrain the objects to ``Container``.
+* Editing the ``Follow`` animation clip will let you change the speed of the follower.
 
-To change the speed of the follower, you can edit the Follow.anim clip inside the Animations folder.
+## Performance stats
 
-## Downloads
+```c++
+Constraints:        5
+Contact Receivers:  1
+Contact Senders:    1
+```
 
-You can grab the latest version of the Follower in [Releases](https://github.com/VRLabs/Follower/releases/latest).
+## Hierarchy layout
+
+```html
+Follower
+|-Container
+|  |-Cube
+|-Look Constraint
+|-Follower Target
+|  |-Look Target
+```
+
+## Contributors
+
+* [lin](https://github.com/oofdesu)
 
 ## License
 
 Follower is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Follower/blob/main/LICENSE).
 
-## Contact us
+​
 
-If you need help, our support channel is on [Discord](https://discord.vrlabs.dev).
+<div align="center">
+
+[<img src="https://github.com/VRLabs/Resources/raw/main/Icons/VRLabs.png" width="50" height="50">](https://vrlabs.dev "VRLabs")
+<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Empty.png" width="10">
+[<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Discord.png" width="50" height="50">](https://discord.vrlabs.dev/ "VRLabs")
+<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Empty.png" width="10">
+[<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Patreon.png" width="50" height="50">](https://patreon.vrlabs.dev/ "VRLabs")
+<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Empty.png" width="10">
+[<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Twitter.png" width="50" height="50">](https://twitter.com/vrlabsdev "VRLabs")
+
+</div>
+
