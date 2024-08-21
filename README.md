@@ -38,6 +38,9 @@ https://github.com/VRLabs/Follower/assets/76777936/eee1dcbb-0e9d-4f92-bb69-9bcbe
 * Expand the prefab hierarchy and find ``Follower Target``.
 * Move ``Follower Target`` outside of ``Follower`` and place it anywhere in your avatars hierarchy as needed.
 
+> [!NOTE]  
+> When building for Quest, you will have to remove unsupported components and shaders
+
 ## How to use
 
 * Place the objects you want to follow you inside ``Container``.
