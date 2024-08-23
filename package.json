@@ -12,7 +12,8 @@
   },
   "siteUrl": "https://github.com/VRLabs/Follower",
   "vpmDependencies": {
-    "dev.vrlabs.instancer": ">=1.0.2"
+    "dev.vrlabs.instancer": ">=1.0.2",
+    "com.vrchat.avatars": "^3.7.0"
   },
   "legacyFolders": {
     "Assets\\VRLabs\\Follower": "f71457bcffdb2c14cb8b10d7f5ad0a93"
