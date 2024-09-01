@@ -4,7 +4,8 @@
 
 [![Generic badge](https://img.shields.io/github/downloads/VRLabs/Follower/total?label=Downloads)](https://github.com/VRLabs/Follower/releases/latest)
 [![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Follower/blob/main/LICENSE)
-[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-lightblue.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
+[![Generic badge](https://img.shields.io/badge/Quest-Compatible-green?logo=Meta)](https://img.shields.io/badge/Quest-Compatible-green?logo=Meta)
+[![Generic badge](https://img.shields.io/badge/Unity-2022.3.22f1-lightblue?logo=Unity)](https://unity.com/releases/editor/whats-new/2022.3.22)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-lightblue.svg)](https://vrchat.com/home/download)
 
 [![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
@@ -15,7 +16,6 @@ Make something slowly follow you and look at you
 ![Follower](https://github.com/VRLabs/Follower/assets/76777936/f36a5cf9-8ac2-4a18-bae8-4d13e9a9c2ac)
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Follower/releases/latest)
-
 
 ### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.follower)
 
@@ -38,6 +38,9 @@ https://github.com/VRLabs/Follower/assets/76777936/eee1dcbb-0e9d-4f92-bb69-9bcbe
 * Expand the prefab hierarchy and find ``Follower Target``.
 * Move ``Follower Target`` outside of ``Follower`` and place it anywhere in your avatars hierarchy as needed.
 
+> [!NOTE]  
+> When building for Quest, you will have to remove unsupported components and shaders
+
 ## How to use
 
 * Place the objects you want to follow you inside ``Container``.
@@ -47,7 +50,8 @@ https://github.com/VRLabs/Follower/assets/76777936/eee1dcbb-0e9d-4f92-bb69-9bcbe
 ## Performance stats
 
 ```c++
-Constraints:        5
+Constraints:        3
+Constraint Depth:   3
 Contact Receivers:  1
 Contact Senders:    1
 ```
@@ -84,4 +88,3 @@ Follower is available as-is under MIT. For more information see [LICENSE](https:
 [<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Twitter.png" width="50" height="50">](https://twitter.com/vrlabsdev "VRLabs")
 
 </div>
-
